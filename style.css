@@ -1,0 +1,57 @@
+/*
+Theme Name:     Codemasala
+Description:    Theme for http://codemasala.com/
+Author:         Rajat Saxena
+Author URI:     http://twitter.com/@rajat1saxena
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+@import url('bootstrap/css/bootstrap.css');
+
+/* downloading necessary fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:600,700);
+
+/* end of downloading fonts*/
+
+@media (min-width:980px){
+    body {
+        padding-top: 40px;
+    }
+    .top-row{
+    	padding-top: 20px;
+    }
+    div#sidebarwell{
+        min-height: 700px;
+    }
+}
+div#main{
+	min-height: 700px;
+}
+.entry-meta{
+	color: #8D8D8D;
+	font-size: 12px;
+}
+.entry-content{
+	padding: 15px 0px;
+}
+div#site-generator{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+span.site_generator{
+    margin-right: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+h3.widget-title{
+    font-weight: normal;
+    font-size: 18px;
+}
+h1.entry-title{
+    font-weight: normal;
+}
